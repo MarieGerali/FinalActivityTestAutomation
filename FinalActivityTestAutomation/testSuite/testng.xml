@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="testComponents.Listeners">
+        </listener>
+    </listeners>
+    <test thread-count="15" name="Test">
+        <classes>
+            <class name="tests.simpleFormDemoTest"/>
+            <class name="tests.checkBoxDemoTest"/>
+            <class name="tests.radioButtonDemoTest"/>
+            <class name="tests.SelectDropdownListTest"/>
+            <class name="tests.inputFormSubmitTest"/>
+            <class name="tests.ajaxFormSubmitTest"/>
+            <class name="tests.jQuerySelectDropdownTest"/>
+            <class name="tests.bootstrapDatePickerTest"/>
+            <class name="tests.tableSortAndSearchDemoTest"/>
+            <class name="tests.bootstrapProgressBarTest"/>
+            <class name="tests.BootstrapAlertsTest"/>
+            <class name="tests.bootstrapModalsTest"/>
+            <class name="tests.WindowPopupModalTest"/>
+            <class name="tests.bootstrapListBoxTest"/>
+            <class name="tests.dataListFilterTest"/>
+        </classes>
+    </test>
+</suite>
